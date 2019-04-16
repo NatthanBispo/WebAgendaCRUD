@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Comfortaa');
+body {
+  background-color: #0097A7;
+  color: #FFF;
+}
+
+.divs {
+  position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  width: 600px;
+  text-align: center;
+}
+
+.divs#index h1{
+  font-family: 'Comfortaa', cursive;
+}
+
+.divs a {
+  background-color: #FFF;
+  padding: 2%;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: #0097A7;
+}
+
+a#editar {
+  padding: 5px;
+  font-size: 10px;
+}
+
+a#editar:hover {
+  background-color: aquamarine;
+}
+
+a#remover {
+  padding: 5px;
+  font-size: 10px;
+}
+
+a#remover:hover {
+  background-color: #B22222;
+  color: #fff;
+}
+
+input {
+  padding: 3%;
+  border-radius: 5px;
+}
+
+#listaContatos {
+  overflow-y: auto;
+}
+
+#adicionar {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+td {
+  border-left-width: 0;
+  min-width: 100px;
+  height: 18px;
+}
