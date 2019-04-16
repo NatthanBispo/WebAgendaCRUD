@@ -32,23 +32,34 @@ a {
   color: #0097A7;
 }
 
-a#editar {
-  padding: 5px;
-  font-size: 10px;
+path {
+  fill: #0097A7;
+}
+
+.alterar a {
+  margin: 2%;
+}
+
+.alterar a{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a#remover:hover {
+  background-color: #FA8072;
+}
+
+a#remover:hover  path {
+  fill: #fff;
 }
 
 a#editar:hover {
   background-color: aquamarine;
-}
-
-a#remover {
-  padding: 5px;
-  font-size: 10px;
-}
-
-a#remover:hover {
-  background-color: #B22222;
   color: #fff;
+}
+
+a#editar:hover  path {
+  fill: #ffffff;
 }
 
 input {
@@ -68,5 +79,5 @@ input {
 td {
   border-left-width: 0;
   min-width: 100px;
-  height: 18px;
+  height: 30px;
 }
