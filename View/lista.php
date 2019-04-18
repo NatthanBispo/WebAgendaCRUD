@@ -13,9 +13,9 @@
       <?php
           if ($listaDeContatos != null){?>
             <tr>
-                <th>Id</th>
-                <th>Nome</th>
-                <th>Email</th>
+                <th>ID</th>
+                <th>NOME</th>
+                <th>EMAIL</th>
             </tr>
         <?php
                 foreach ($listaDeContatos as $i) {

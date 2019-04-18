@@ -8,13 +8,13 @@
 <body>
   <div class="divs">
 	   <form action="../Controller/Controle.php?funcao=updateContato&id=<?=$id?>"  method="POST">
-        <h1>Atualizar Contato</h1>
+        <h1>Atualizar <br/> Contato</h1>
         <p class="nome">
-            <label for="nome">Nome</label>
+            <label for="nome">Nome</label><br/>
             <input type="text" id="newName" value="<?= $nome?>" required="required" name="newName" />
         </p>
         <p>
-            <label for="email">Email</label>
+            <label for="email">Email</label><br/>
             <input type="email" id="newEmail" value="<?= $email?>" required="required" name="newEmail" />
         </p>
         <p class="submit">

@@ -8,14 +8,14 @@
 <body>
   <div class="divs">
 	   <form action="../Controller/Controle.php?funcao=adcionaNovo" method="POST">
-        <h1>Cadastrar Contato</h1>
+        <h1>Cadastrar <br/> Contato</h1>
         <p class="nome">
-            <label for="nome">Nome</label>
+            <label for="nome">Nome</label><br/>
             <input type="text" id="nome" placeholder="Fulano de Tal" required="required" name="nome" />
 
         </p>
         <p>
-            <label for="email">Email</label>
+            <label for="email">Email</label><br/>
             <input type="email" id="email" placeholder="fulano@mail.com" name="email" />
 
         </p>

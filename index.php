@@ -7,7 +7,7 @@
 </head>
 <body>
 	<div class="divs" id="index">
-		<h1>Cadastro de Contatos</h1>
+		<h1>Cadastro <br/> de Contatos</h1>
 	    <p>
 	        <a id='adicionar' href="Controller/Controle.php?funcao=criarNovo">Adicionar novo</a>
 	        <a id='verLista' href="Controller/Controle.php?funcao=verLista">Ver lista</a>

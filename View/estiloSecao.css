@@ -1,6 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+
+@keyframes animacaoIndex {
+  50%{
+    border-radius: 35px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+}
+
 body {
-  background-color: #0097A7;
+  background-color: #FF4040;
   color: #FFF;
 }
 
@@ -13,8 +22,14 @@ body {
   text-align: center;
 }
 
+h1{
+  font-family: 'Patua One', cursive;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
 .divs#index h1{
-  font-family: 'Comfortaa', cursive;
+  font-size: 40px;
 }
 
 .divs a {
@@ -29,24 +44,21 @@ body {
 
 a {
   text-decoration: none;
-  color: #0097A7;
+  color: #FF4040;
 }
 
 path {
-  fill: #0097A7;
-}
-
-.alterar a {
-  margin: 2%;
+  fill: #FF4040;
 }
 
 .alterar a{
+  margin: 2%;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 a#remover:hover {
-  background-color: #FA8072;
+  background-color: #8B1A1A;
 }
 
 a#remover:hover  path {
@@ -54,7 +66,7 @@ a#remover:hover  path {
 }
 
 a#editar:hover {
-  background-color: aquamarine;
+  background-color: #FF3030;
   color: #fff;
 }
 
@@ -72,12 +84,33 @@ input {
 }
 
 #adicionar {
-  background-color: #4CAF50;
+  background-color: #EE3B3B;
   color: #fff;
+  animation: animacaoIndex 6s linear infinite;
+}
+
+#verLista {
+  animation: animacaoIndex 6s linear infinite;
 }
 
 td {
   border-left-width: 0;
   min-width: 100px;
   height: 30px;
+}
+
+label {
+  text-transform: uppercase;
+}
+
+input[type=text], input[type=email]{
+  border: none;
+}
+
+input[type=submit], input[type=button]{
+  border: none;
+  color: #fff;
+  padding-left: 27px;
+  padding-right: 27px;
+  background-color: #EE3B3B;
 }
